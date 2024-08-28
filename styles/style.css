@@ -1,0 +1,132 @@
+
+body{
+    
+    background: linear-gradient(#e3e646 0%, #10468b 33.33%, #0a0958 66.67%, #000000 100%);
+    color: yellow;
+
+}
+
+.logo{
+    display: flex;
+    width: 15%;
+    padding: 20px 0;
+}
+
+
+.container {
+    display:flex;
+    text-align:unset;
+    background-color: #afcc98a6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 100%;;
+    height:100%;
+}
+
+textarea {
+    width: 75%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.titulo{
+    text-align: right;
+    vertical-align: top;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 20px;
+    border:#f0ec09;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: rgb(2, 0, 0);
+    cursor:progress;
+}
+
+button:hover {
+    background-color: #f1e209;
+}
+
+#resultado-container {
+    width: 39%;
+    height: 100%;
+    
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#placeholder {
+    
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#resultado-window {
+    width: 35%;
+    height: 50%;
+    background-color: #e9e9eb;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+#resultado {
+    font-size: 24px;
+    color: #333;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+#copiar-boton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #28a745;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#copiar-boton:hover {
+    background-color: #ceda2f;
+}
+
+.footer{
+    color:yellow;
+    background-color: navy;
+    text-align: end;
+    font-family: var(--fuente-krona);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .header{
+        padding: 10%;  
+   }
+    .container {
+        width: 100%;
+    }
+
+    textarea {
+        height: 80px;
+    }
+}

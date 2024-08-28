@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./assets/w_detective2.png">
+        <h1 class= "titulo">
+            <strong>Encriptador - Lobo🐺</strong>
+        </h1>
+    </header>
+            <div class="container">
+                <div>
+                <textarea id= "texto_a_encriptar" placeholder="Escribe el mensaje aqui🙉"></textarea>
+                </div>
+                
+                <div id="resultado-container" class="resultado-ventana">
+                    <img id="placeholder" src="./assets/w_detective.png" alt="Imagen alineada a la derecha">
+                    <p id="resultado"></p>
+                    <button id="copiar-boton" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+            <div>
+                <p>!solo letras minusculas y sin acentos</p>
+
+                <button onclick="encriptar()" >Encriptar</button>
+                <button onclick="desencriptar()" >Desencriptar</button>
+
+            </div>
+
+    <footer class="footer">
+        <p>Desarrollado por JoseManuelCondoriPilcco-Lobo/2024</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
